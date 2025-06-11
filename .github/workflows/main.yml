@@ -16,4 +16,4 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@master
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_HOST_URL: http://ec2-13-36-239-130.eu-west-3.compute.amazonaws.com/
+        SONAR_HOST_URL: http://ec2-13-36-239-130.eu-west-3.compute.amazonaws.com
